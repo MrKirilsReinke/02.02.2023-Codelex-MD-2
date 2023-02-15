@@ -1,0 +1,18 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 2rem solid #494343;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fcecdd;
+}
+
+.nameText {
+    font-size: 1.5rem;
+}
+
+.genreText {
+    font-style: italic;
+}

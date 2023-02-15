@@ -1,0 +1,20 @@
+
+
+.label {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.labelText {
+    font-size: 1rem;
+    text-transform: capitalize;
+
+}
+
+.input {
+    padding: 5px;
+    height: 40px;
+    border: 1px solid #494343;;
+    border-radius: 5px;
+}
