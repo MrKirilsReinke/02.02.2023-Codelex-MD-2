@@ -11,5 +11,5 @@ npm run dev
 
 Open another terminal and write:
 ```
-json-server --watch db.json --port 3004
+json-server --watch db.json --port 3004 
 ```
