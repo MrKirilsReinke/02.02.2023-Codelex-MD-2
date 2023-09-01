@@ -10,7 +10,6 @@ import FormEditModalForm from '../FormEditModalForm/FormEditModalForm';
 
 export type Singer = {
     id: number,
-
     image: string, 
     name: string,
     genre: string,
@@ -82,17 +81,6 @@ const SingerApp = () => {
                 <div className={style.leftSide}>
                     <FormAddSinger
                         onSubmit={addPost}
-                        // onSubmit={(formData) => {
-                        // console.log('added!', formData);
-                        // addPost(formData);
-                        // setSingers([
-                        //     ...singers,
-                        //     {
-                        //         id: Math.random(),
-                        //         ...formData
-                        //     }
-                        // ]);
-                        // }} 
                     />
                 </div>
                 <div className={style.rigthSide}>
