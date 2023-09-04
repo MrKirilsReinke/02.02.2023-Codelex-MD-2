@@ -10,15 +10,15 @@ export type formData = {
   genre: string;
 };
 
+type FormAddSingerProps = {
+  onSubmit: (formData: formData) => void;
+  initialValues?: Omit<Singer, "id">;
+};
+
 const InitialFromData = {
   name: "",
   image: "",
   genre: "",
-};
-
-type FormAddSingerProps = {
-  onSubmit: (formData: formData) => void;
-  initialValues?: Omit<Singer, "id">;
 };
 
 const FormAddSinger = ({ initialValues, onSubmit }: FormAddSingerProps) => {
@@ -38,9 +38,9 @@ const FormAddSinger = ({ initialValues, onSubmit }: FormAddSingerProps) => {
         onSubmit(formData);
         submitHandler();
       }}>
-      <span className={style.addSingerText}>Add singer</span>
+      <h3 className={style["form__heading"]}>Add singer</h3>
       <Input
-        label="Name:"
+        label="name:"
         required={true}
         placeholder="Edit name..."
         value={formData.name}
@@ -49,7 +49,7 @@ const FormAddSinger = ({ initialValues, onSubmit }: FormAddSingerProps) => {
         }}
       />
       <Input
-        label="Image:"
+        label="image:"
         required={true}
         placeholder="https://www.some-image.com..."
         value={formData.image}
@@ -58,7 +58,7 @@ const FormAddSinger = ({ initialValues, onSubmit }: FormAddSingerProps) => {
         }}
       />
       <Input
-        label="Genre:"
+        label="genre:"
         placeholder="Edit genre..."
         value={formData.genre}
         required={true}
