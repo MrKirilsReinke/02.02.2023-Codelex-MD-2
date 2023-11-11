@@ -85,10 +85,6 @@ Database should start at following link:
 * React-toastify: A notification library for displaying toast messages.
 * SCSS: A CSS preprocessor for styling the application.
 
-## License
-
-This project is open-source and is available under the [MIT License](LICENSE). You are free to use, modify, and distribute this project for any purpose.
-
 ## How to Contribute
 
 Contributions to this project are welcome. To contribute, follow these steps:
