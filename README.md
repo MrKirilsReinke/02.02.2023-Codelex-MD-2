@@ -10,7 +10,6 @@ A React-based web application for managing a list of singers and their informati
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
-- [License](#license)
 - [Features](#features)
 - [How to Contribute](#how-to-contribute)
 
